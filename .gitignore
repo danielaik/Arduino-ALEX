@@ -1,2 +1,7 @@
-# General
 .DS_Store
+
+*.bin
+*.hex
+
+.vscode/
+build/
