@@ -1,6 +1,6 @@
 # Arduino-ALEX
 
-Arduino implementation of ALEX (Alternating Laser Excitation) to synchronize illumination of two diode lasers with the exposure of an EMCCD camera in an interleaved manner.
+Arduino implementation of ALEX (Alternating Laser Excitation) to synchronize illumination of two diode lasers with the exposure of an EMCCD (camera as master) in an interleaved manner. Note that using microcontroller for timing is not recommended for <100 µs precision, but fine for ms-control.
 
 This is the source code repository for the Arduino-ALEX firmware. The firmware was initially designed and used for:
 
@@ -23,7 +23,7 @@ This is the source code repository for the Arduino-ALEX firmware. The firmware w
 
 ## If you find it useful
 
-The code is licensed under the GNU General Public License (GPL) so you are not required to _cite_ this repository in the academic sense but it is good academic practice to cite the repo or at least acknowledge it especially if it significantly influenced your work. However you do have legal obligations if you distribute or modify the code. If you do happen to:
+The code is licensed under the GNU General Public License (GPL). If this repo significantly influenced your work, do:
 
 - Include the original license (e.g., LICENSE file).
 - Include the copyright notice of the original author(s).
